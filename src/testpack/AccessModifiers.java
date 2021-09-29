@@ -1,3 +1,5 @@
+package testpack;
+
 public class AccessModifiers {
 
     public void doSomethingPublic() {

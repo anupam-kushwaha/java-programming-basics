@@ -1,3 +1,5 @@
+package testpack;
+
 import javax.swing.*;
 
 public class Objects {

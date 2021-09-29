@@ -1,9 +1,11 @@
+package testpack;
+
 public class Person {
     private String name;
     private int age;
 
     public Person() {
-        System.out.println("Person created...");
+        System.out.println("testpack.Person created...");
     }
 
     public String getName() {
@@ -24,5 +26,13 @@ public class Person {
 
     public void sayHelloTo(Person p) {
         System.out.println(this.getName() +" say hello to "+ p.getName());
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
     }
 }
